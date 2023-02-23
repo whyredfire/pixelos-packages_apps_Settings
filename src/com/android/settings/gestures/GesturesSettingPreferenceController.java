@@ -82,6 +82,7 @@ public class GesturesSettingPreferenceController extends BasePreferenceControlle
                 .setConfig(ambientDisplayConfiguration));
         controllers.add(new PowerButtonTorchGesturePreferenceController(context, FAKE_PREF_KEY));
         controllers.add(new VolumeButtonMusicControlPreferenceController(context, FAKE_PREF_KEY));
+        controllers.add(new DoubleTapAmbientSettingsController(context, FAKE_PREF_KEY));
         return controllers;
     }
 }

@@ -39,4 +39,7 @@
     <!-- Android debugging as root -->
     <string name="adb_enable_root">Rooted debugging</string>
     <string name="adb_enable_summary_root">Allow running Android debugging as root</string>
+
+    <!-- Hide double tap to doze preference on settings -->
+    <bool name="config_disableDoubleTapToDoze">false</bool>
 </resources>
